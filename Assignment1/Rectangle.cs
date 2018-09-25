@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Assignment1
 {
-    class Rectangle
-    {
-        //assign to fields to this class
+    public class Rectangle
+    { 
+        //assign to fields to this class.
         private int length;
         private int width;
 
@@ -36,7 +36,7 @@ namespace Assignment1
             return Width;
         }
 
-        public int SetLength(int Length)
+        public int SetLength(int length)
         {
             
             Length = length;

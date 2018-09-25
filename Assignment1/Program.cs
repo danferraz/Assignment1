@@ -23,8 +23,10 @@ namespace Assignment1
             Console.WriteLine("Rectangle Width: " + rectangle.GetWidth());
             Console.WriteLine("Rectangle Area: " + rectangle.GetArea());
             Console.WriteLine("Rectangle Perimeter: " + rectangle.GetPerimeter());
-                       
-            
+
+
+          //  var a = rectangle.SetWidth(50);
+            //Console.WriteLine(a.ToString());
             Console.ReadKey();
 
 
