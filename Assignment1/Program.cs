@@ -12,22 +12,19 @@ namespace Assignment1
         {
             
             Console.WriteLine("INPUT");
-            Console.Write("Please insert the length of your rectangle:");
+            Console.Write("Please insert the length of your rectangle: ");
             int length = Int32.Parse(Console.ReadLine());
-            Console.Write("Please insert the width of your rectangle:");
+            Console.Write("Please insert the width of your rectangle: ");
             int width = Int32.Parse(Console.ReadLine());
 
             Console.WriteLine(Environment.NewLine + "OUTPUT");
             Rectangle rectangle = new Rectangle(length, width);
-            Console.WriteLine(rectangle.Width);
-            Console.WriteLine(rectangle.Length);
-            Console.WriteLine("====");
-            Console.WriteLine(rectangle.GetArea());
-            Console.WriteLine(rectangle.GetPerimeter());
-
+            Console.WriteLine("Rectangle Length: " + rectangle.GetLength());
+            Console.WriteLine("Rectangle Width: " + rectangle.GetWidth());
+            Console.WriteLine("Rectangle Area: " + rectangle.GetArea());
+            Console.WriteLine("Rectangle Perimeter: " + rectangle.GetPerimeter());
+                       
             
-
-
             Console.ReadKey();
 
 
