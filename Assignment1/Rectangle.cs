@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace Assignment1
 {
     public class Rectangle
-    { 
-        //assign to fields to this class.
+    {         
         private int length;
         private int width;
 
@@ -52,7 +51,7 @@ namespace Assignment1
 
         public int GetPerimeter()
         {
-            return (Length * Width)*2;
+            return (Length + Width)*2;
         }
         
         public int GetArea()
