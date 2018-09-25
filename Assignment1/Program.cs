@@ -10,8 +10,7 @@ namespace Assignment1
     {
         static void Main(string[] args)
         {
-
-
+            
             Console.WriteLine("INPUT");
             Console.Write("Please insert the length of your rectangle:");
             int length = Int32.Parse(Console.ReadLine());
