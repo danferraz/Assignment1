@@ -8,6 +8,7 @@ namespace Assignment1
 {
     class Rectangle
     {
+        //assign to fields to this class
         private int length;
         private int width;
 
